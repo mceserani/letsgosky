@@ -9,6 +9,11 @@ def mul(a, b):
 def power(a, b):
     return a ** b
 
+
+def log2(a):
+    import math
+    return math.log2(a)
+
 if __name__ == "__main__":
     result = add(2, 3)
     print(f"The result of adding 2 and 3 is: {result}")
