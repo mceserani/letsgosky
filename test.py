@@ -1,3 +1,4 @@
+print("letsgosky!")
 print("Hello world!")
 
 def add(a, b):
