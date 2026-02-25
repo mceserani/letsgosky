@@ -13,6 +13,10 @@ def power(a, b):
 def log2(a):
     import math
     return math.log2(a)
+def divide(a, b):
+    if b == 0:
+        raise ValueError("Cannot divide by zero.")
+    return a / b
 
 if __name__ == "__main__":
     result = add(2, 3)
